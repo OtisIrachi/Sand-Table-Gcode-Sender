@@ -62,6 +62,7 @@ G1 X0.000 Y25.456.....
 M2
 
 ****************************************************************************************************
+Table Lighting.
 
 The LED Strip Controller uses an ESP8266 D1 Mini Module,  
 a 30 LED/meter strip, 
