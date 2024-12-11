@@ -27,7 +27,9 @@ The sand patterns were created with [https://github.com/markroland/sand-table-pa
 
 I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match the 
 dimensions of my sand table, roughly 525mm x 525mm.
-Run the SandPatternMaker525 program by clicking on the "index.html" file.  It runs in your browser.
+Run the SandPatternMaker525 program by clicking on the "index.html" file.  
+
+It runs in your browser.
 https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/blob/main/SandPatternMaker525/index.html
 
 The .gcode files are manually edited at beginning and the end of each 
