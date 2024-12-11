@@ -17,6 +17,7 @@ STL Files referenced from https://www.instructables.com/Easily-Build-a-MACHINE-T
 The STL Files in this project folder were modified and used here:  https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/Kinetic%20STL%20Files
 
 I started with a modified version of the original V1.1 grbl source code.
+https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/grbl_Modified
 That source code is attached in this project.  All you need do is load it onto your Arduino UNO.
 Mostly it is changed for IO config and a Baud rate of 9600 in order to keep up with
 motor moves and grbl handshaking.
