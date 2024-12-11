@@ -1,6 +1,8 @@
 ****************************************************************************************************
 Sand Table Gcode Sender
+
  ![Completed Table](https://github.com/user-attachments/assets/cc4b0a03-9b88-4c51-9a00-9d8e77c745c5)
+ 
 
 This project is a mashup of several programs to create yet another version of a COREXY Sand Table.
 My frustration was in the complexity of other projects, although done quite well,
@@ -10,7 +12,9 @@ to a modified Grbl CNC Shield UNO controller.
 A logic level shifter board is needed to connect the 3.3V TX and RX from the ESP32 to the
 5.0V TX and RX on the CNC Shield.
 All files from this project are included.
+
 ![Board Mount](https://github.com/user-attachments/assets/1e8dadd7-dbb8-4ab9-8d5b-4881c2e87be6)
+
 
 Basic components are:
 
@@ -21,7 +25,9 @@ Grbl CNC Shield and Arduino UNO for stepper motor controller.
 TMC2209 Stepper Drivers for quiet operation.
 
 ESP32 and SDCard module for sending gcode programs to the grbl stepper motor controller.
+
 ![cnc shield and esp32 sender](https://github.com/user-attachments/assets/73a75c35-de47-4b4c-8d21-2b9407ddbe1f)
+
 
 ****************************************************************************************************
 
