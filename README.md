@@ -7,6 +7,8 @@ but I wanted a simpler approach.
 
 Basic components are:
 
+525mm x 525mm CoreXY Table.  
+
 Grbl CNC Shield and Arduino UNO for stepper motor controller.
 
 TMC2209 Stepper Drivers for quiet operation.
