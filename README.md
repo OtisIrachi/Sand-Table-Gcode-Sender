@@ -38,6 +38,55 @@ var env = {
     "recalculate_pattern": true
 }
 //********************************************************************
+var env = {
+    
+	"table" : {
+        
+		"format": "cartesian",
+        
+		"units": "mm",
+        
+		"x": {
+            
+		     "min": 5.0,
+            
+		     "max": 520.0
+        
+		},
+        
+		"y": {
+            
+		     "min": 5.0,
+            
+		     "max": 520.0
+        
+		}
+    
+	},
+    
+	"motor": {
+        
+		"speed": 3000.0
+    
+	},
+    
+	"ball": {
+        
+		"diameter": 19.0
+    
+	},
+    
+	"gcode": {
+        
+		"command": "G1"
+    
+	},
+    
+	"recalculate_pattern": true
+
+}
+//********************************************************************
+
 The .gcode files are manually edited at beginning and the end of each 
 file for simplicity in the arduino coding. All comments created by Sand Table Maker
 are deleted and an Fxxxx speed command is added to the first G1 line, and an "M2"
