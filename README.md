@@ -50,6 +50,7 @@ G1 X0.000 Y25.456.....
 M2
 
 The LED Strip Controller is here https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/ESPEncoderNeopixel.
+
 Uses an ESP8266 D1 Mini Module,  a 30 LED/meter strip, and a Rotary Encoder Module with Push Button.
 
 Wiring and Schematics found here: https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/Schematics
