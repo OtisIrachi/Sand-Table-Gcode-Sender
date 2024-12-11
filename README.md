@@ -36,6 +36,7 @@ The .gcode files are manually edited at beginning and the end of each
 file for simplicity in the arduino coding. All comments created by Sand Table Maker
 are deleted and an Fxxxx speed command is added to the first G1 line, and an "M2"
 command at the end of each gcode file.
+
 ex: 
 G1 X5.000 Y5.000 F6000
 G1 X12.728 Y0.000
