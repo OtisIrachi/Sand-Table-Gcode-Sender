@@ -11,32 +11,7 @@ The sand patterns were created with https://github.com/markroland/sand-table-pat
 I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match the 
 dimensions of my sand table, roughly 525mm x 525mm.
 Example:
-//********************************************************************
 
-var env = {
-    "table" : {
-        "format": "cartesian",
-        "units": "mm",
-        "x": {
-            "min": 5.0,
-            "max": 520.0
-        },
-        "y": {
-            "min": 5.0,
-            "max": 520.0
-        }
-    },
-    "motor": {
-        "speed": 3000.0
-    },
-    "ball": {
-        "diameter": 19.0
-    },
-    "gcode": {
-        "command": "G1"
-    },
-    "recalculate_pattern": true
-}
 //********************************************************************
 var env = {
     
