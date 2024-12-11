@@ -11,6 +11,7 @@ The sand patterns were created with https://github.com/markroland/sand-table-pat
 I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match the 
 dimensions of my sand table, roughly 525mm x 525mm.
 Example:
+
 //********************************************************************
 
 
@@ -64,6 +65,9 @@ var env = {
 
 //********************************************************************
 
+
+
+//*******************************************************************************************
 The .gcode files are manually edited at beginning and the end of each 
 file for simplicity in the arduino coding. All comments created by Sand Table Maker
 are deleted and an Fxxxx speed command is added to the first G1 line, and an "M2"
