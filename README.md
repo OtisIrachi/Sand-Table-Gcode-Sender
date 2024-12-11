@@ -35,19 +35,19 @@ The sand patterns were created with:
 
 [https://github.com/markroland/sand-table-pattern-maker.](https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/SandPatternMaker525)
 
-You may also use sandify.org for creating Sand Patterns:
+You may also use sandify.org:
 
 https://sandify.org/
-
-I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match the 
-dimensions of my sand table, roughly 525mm x 525mm.
-Run the SandPatternMaker525 program by clicking on the "index.html" file.  It runs in your browser.
 
 Each .gcode file is manually edited at beginning and the end for simplicity in the gsender coding. 
 
 All comments created by Sand Table Maker or sandify.org
 are deleted and an Fxxxx speed command is added to the first G1 line, and an "M2"
 command at the end of each gcode file.
+
+I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match the 
+dimensions of my sand table, roughly 525mm x 525mm.
+Run the SandPatternMaker525 program by clicking on the "index.html" file.  It runs in your browser.
 
 ex: 
 
