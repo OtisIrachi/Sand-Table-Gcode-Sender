@@ -7,9 +7,13 @@ but I wanted a simpler approach.
 Basic components are:
 
 Grbl CNC Shield and Arduino UNO for stepper motor controller.
+
 TMC2209 Stepper Drivers for quiet operation.
+
 ESP32 and SDCard module for sending gcode programs to the grbl stepper motor controller.
+
 STL Files from https://www.instructables.com/Easily-Build-a-MACHINE-THAT-DESTROYS-WHAT-IT-CREAT/  project.
+
 The STL Files in this project folder were modified and used.
 
 I started with a modified version of the original V1.1 grbl source code.
