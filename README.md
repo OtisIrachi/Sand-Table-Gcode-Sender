@@ -4,8 +4,8 @@ Sand Table Gcode Sender
 This project is a mashup of several programs to create yet another version of a COREXY Sand Table.
 My frustration was in the complexity of other projects, although done quite well,
 but I wanted a simpler approach.  
-Utilizes an ESP32 D1 Mini module to send "gcodes" via a secondary Serial TX-Rx Port (pins 16 and 17).
-to a modified gGrbl CNC Shield UNO controller.
+Utilizes an ESP32 D1 Mini module as a "gcode sender" via the secondary Serial TX-Rx Port (pins 16 and 17)
+to a modified Grbl CNC Shield UNO controller.
 A logic level shifter board is needed to connect the 3.3V TX and RX from the ESP32 to the
 5.0V TX and RX on the CNC Shield.
 All files from this project are included.
@@ -19,6 +19,7 @@ Grbl CNC Shield and Arduino UNO for stepper motor controller.
 TMC2209 Stepper Drivers for quiet operation.
 
 ESP32 and SDCard module for sending gcode programs to the grbl stepper motor controller.
+![cnc shield and esp32 sender](https://github.com/user-attachments/assets/73a75c35-de47-4b4c-8d21-2b9407ddbe1f)
 
 ****************************************************************************************************
 
@@ -76,6 +77,7 @@ a 30 LED/meter strip,
 and a Rotary Encoder Module with Push Button.
 
 https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/ESPEncoderNeopixel.
+![LED Strip Controller](https://github.com/user-attachments/assets/9edb3115-afaa-4505-8612-a871e40bdfd1)
 
 ****************************************************************************************************
 
