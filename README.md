@@ -12,8 +12,8 @@ I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match th
 dimensions of my sand table, roughly 525mm x 525mm.
 Example:
 
-//********************************************************************
 
+//********************************************************************
 
 var env = {
     
