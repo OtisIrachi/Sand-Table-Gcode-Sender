@@ -18,11 +18,13 @@ The STL Files in this project folder were modified and used here:  https://githu
 
 I started with a modified version of the original V1.1 grbl source code.
 https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/grbl_Modified
+
 That source code is attached in this project.  All you need do is load it onto your Arduino UNO.
 Mostly it is changed for IO config and a Baud rate of 9600 in order to keep up with
 motor moves and grbl handshaking.
 
 The sand patterns were created with [https://github.com/markroland/sand-table-pattern-maker.](https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/SandPatternMaker525)
+
 I modified the "env.js in the "SandPatternMaker525\assets\js" folder to match the 
 dimensions of my sand table, roughly 525mm x 525mm.
 Run the SandPatternMaker525 program by clicking on the "index.html" file.  It runs in your browser.
