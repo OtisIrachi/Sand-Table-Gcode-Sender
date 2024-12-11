@@ -72,7 +72,7 @@ https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/ESPEncoderNeopix
 
 ****************************************************************************************************
 
-Wiring and Schematics found here: 
+Wiring and Schematics for this project found here: 
 
 https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/Schematics
 
