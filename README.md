@@ -1,6 +1,7 @@
 ****************************************************************************************************
 Sand Table Gcode Sender
- 
+ ![Completed Table](https://github.com/user-attachments/assets/cc4b0a03-9b88-4c51-9a00-9d8e77c745c5)
+
 This project is a mashup of several programs to create yet another version of a COREXY Sand Table.
 My frustration was in the complexity of other projects, although done quite well,
 but I wanted a simpler approach.  
@@ -9,6 +10,7 @@ to a modified Grbl CNC Shield UNO controller.
 A logic level shifter board is needed to connect the 3.3V TX and RX from the ESP32 to the
 5.0V TX and RX on the CNC Shield.
 All files from this project are included.
+![Board Mount](https://github.com/user-attachments/assets/1e8dadd7-dbb8-4ab9-8d5b-4881c2e87be6)
 
 Basic components are:
 
