@@ -12,9 +12,9 @@ TMC2209 Stepper Drivers for quiet operation.
 
 ESP32 and SDCard module for sending gcode programs to the grbl stepper motor controller.
 
-STL Files from https://www.instructables.com/Easily-Build-a-MACHINE-THAT-DESTROYS-WHAT-IT-CREAT/  project.
+STL Files referenced from https://www.instructables.com/Easily-Build-a-MACHINE-THAT-DESTROYS-WHAT-IT-CREAT/  project.
 
-The STL Files in this project folder were modified and used.
+The STL Files in this project folder were modified and used here:  https://github.com/OtisIrachi/Sand-Table-Gcode-Sender/tree/main/Kinetic%20STL%20Files
 
 I started with a modified version of the original V1.1 grbl source code.
 That source code is attached in this project.  All you need do is load it onto your Arduino UNO.
