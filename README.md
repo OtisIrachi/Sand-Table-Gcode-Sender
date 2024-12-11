@@ -4,10 +4,15 @@ Sand Table Gcode Sender
 This project is a mashup of several programs to create yet another version of a COREXY Sand Table.
 My frustration was in the complexity of other projects, although done quite well,
 but I wanted a simpler approach.  
+Utilizes an ESP32 D1 Mini module to send "gcodes" via a secondary Serial TX-Rx Port (pins 16 and 17).
+to a modified gGrbl CNC Shield UNO controller.
+A logic level shifter board is needed to connect the 3.3V TX and RX from the ESP32 to the
+5.0V TX and RX on the CNC Shield.
+All files from this project are included.
 
 Basic components are:
 
-525mm x 525mm CoreXY Table.  
+525mm x 525mm CoreXY Table.
 
 Grbl CNC Shield and Arduino UNO for stepper motor controller.
 
