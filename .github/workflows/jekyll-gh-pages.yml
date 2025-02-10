@@ -35,7 +35,7 @@ jobs:
         with:
           source: ./
           destination: ./_site
-           - name: Inject Google Site Verification Meta Tag
+      - name: Inject Google Site Verification Meta Tag
         run: |
           META_TAG='<meta name="google5aafb1e7f34117b2.html" content="**************" />'
           find ./_site -name "*.html" -exec sudo sed -i "s|</head>|$META_TAG\n</head>|g" {} + 
